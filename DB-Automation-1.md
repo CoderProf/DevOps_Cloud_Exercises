@@ -9,3 +9,5 @@ You need to create a release pipeline that will run the DB scripts in these thre
 When a Developer  merges a PR with new/updated DB scripts , the relese pipline will auto-trigger and run the DB Scripts in Dev DB first, then Test DB and Then Prod DB
 
 Verify that the Databases are refelecting the chnages as per the DB Scripts.
+
+Also if we need to roll back the deployemnt to a previous version , the DB chnages shoudl also be rolled back to the state of that version.
